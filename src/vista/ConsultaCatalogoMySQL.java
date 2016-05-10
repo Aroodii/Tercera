@@ -115,11 +115,11 @@ public class ConsultaCatalogoMySQL extends JPanel {
 		});
 	}
 
-	private static void createAndShowGUI() {
+	public static void createAndShowGUI() {
 		
 
 		JFrame frame = new JFrame("Consulta catálogo mySQL");
-		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	//	frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 		// Create and set up the content pane.
 		JComponent newContentPane = new ConsultaCatalogoMySQL();
